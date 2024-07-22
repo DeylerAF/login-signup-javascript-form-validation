@@ -1,0 +1,28 @@
+@import url(/css/reset.css);
+@import url(/css/form.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  /* Fonts */
+  --poppins: 'Poppins', sans-serif;
+  /* Colors */
+  --accent-color: #4b8c01;
+  --base-color: #f5f5ff;
+  --text-color: #0a1f01;
+  --input-color: #cfddc0;
+}
+
+html {
+  font-family: var(--poppins);
+  font-size: 16px;
+  color: var(--text-color);
+}
+
+body {
+  min-width: 100vh;
+  background-image: url(/img/background.jpg);
+  background-size: cover;
+  background-position: right;
+  overflow: hidden;
+}
